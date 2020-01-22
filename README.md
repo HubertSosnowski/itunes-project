@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project for the recruiting process
+
+In this project you can search your favorite songs for iTunes database.
+I've used React library and connected with iTunes API.
 
 ## Available Scripts
 
