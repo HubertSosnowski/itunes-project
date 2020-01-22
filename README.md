@@ -1,6 +1,6 @@
 ## Project for the recruiting process
 
-In this project you can search your favorite songs for iTunes database.
+In this project you can search your favorite songs from iTunes database.
 I've used React library and connected with iTunes API.
 
 ## Available Scripts
