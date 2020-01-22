@@ -1,0 +1,59 @@
+.logo {
+    margin: 0 auto;
+    padding-left: 2.5rem;
+    max-width: $max-width;
+    height: 6.2rem;
+    display: flex;
+    align-items: center;
+    &--image {
+        height: 84%;
+        width: auto;
+    }
+}
+
+.search {
+    text-align: center;
+    height: 20.5rem;
+    background-color: $color-dark-lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: $color-white;
+
+    &--title {
+        font-size: 2.6rem;
+    }
+
+    &--description {
+        font-weight: 300;
+        font-size: 1.4rem;
+        padding-bottom: 1rem;
+    }
+
+    &--form {
+        height: 4rem;
+        display: flex;
+
+        &--input {
+            height: 100%;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 2rem 0 0 2rem;
+            background-color: $color-gray;
+            font-family: "Lato", sans-serif;
+            font-size: 1.6rem;
+        }
+
+        &--button {
+            font-family: "Lato", sans-serif;
+            font-size: 1.6rem;
+            height: 100%;
+            border: none;
+            border-radius: 0 2rem 2rem 0;
+            background-color: $color-orange;
+            color: #ffffff;
+            padding: 0 2rem;
+        }
+    }
+}
